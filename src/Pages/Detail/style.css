@@ -1,0 +1,321 @@
+.detail-container {
+  padding-bottom: 13.06667vmin;
+  background-color: whitesmoke;
+  font-size: 3.73333vmin;
+}
+
+.detail-container .line {
+  width: 100%;
+  height: 0.26667vmin;
+  background-color: #e0e0e0;
+}
+
+.detail-container .all-title {
+  padding: 4.26667vmin 2.66667vmin;
+  font-weight: 700;
+  font-size: 4.26667vmin;
+}
+
+.detail-container .top {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  z-index: 111111;
+  width: 100%;
+  height: 12vmin;
+  font-size: 4.26667vmin;
+  text-align: center;
+  line-height: 12vmin;
+}
+
+.detail-container .top .back {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 12vmin;
+  height: 100%;
+}
+
+.detail-container .top .back img {
+  transform: translate(0, 20%);
+  width: 50%;
+  height: 50%;
+}
+
+.detail-container .top .share {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 12vmin;
+  height: 100%;
+}
+
+.detail-container .top .share img {
+  transform: translate(0, 10%);
+  width: 35%;
+  height: 35%;
+}
+
+.detail-container .seeding {
+  width: 100%;
+}
+
+.detail-container .seeding .slider-list {
+  height: 56vmin !important;
+}
+
+.detail-container .seeding .lbA {
+  display: block;
+  height: 56vmin;
+}
+
+.detail-container .main-text {
+  background-color: #fff;
+  padding: 2.66667vmin;
+}
+
+.detail-container .main-text .title {
+  font-size: 4.26667vmin;
+  margin-bottom: 2.66667vmin;
+}
+
+.detail-container .main-text .tags {
+  margin-bottom: 4vmin !important;
+}
+
+.detail-container .main-text > .tags:nth-child(2) {
+  font-weight: 700;
+  font-size: 3.73333vmin;
+  border-radius: 1.06667vmin;
+  padding: 0.8vmin;
+  color: #55afbf;
+  background-color: #dbf4f7;
+  display: inline-block;
+  margin-right: 1.6vmin;
+  margin-bottom: 1.06667vmin;
+}
+
+.detail-container .main-text > .tags:nth-child(3) {
+  font-weight: 700;
+  font-size: 3.73333vmin;
+  border-radius: 1.06667vmin;
+  padding: 0.8vmin;
+  color: #66ac96;
+  background-color: #dbf2ea;
+  display: inline-block;
+  margin-right: 1.6vmin;
+  margin-bottom: 1.06667vmin;
+}
+
+.detail-container .main-text .money-ul {
+  overflow: hidden;
+}
+
+.detail-container .main-text .money-ul li {
+  padding: 5.33333vmin 0;
+  float: left;
+  width: 33%;
+}
+
+.detail-container .main-text .money-ul li .price {
+  margin-bottom: 2.66667vmin;
+  text-align: center;
+  font-size: 4.26667vmin;
+  color: #ff461d;
+}
+
+.detail-container .main-text .money-ul li .price strong {
+  font-size: 4.8vmin;
+}
+
+.detail-container .main-text .money-ul li p {
+  text-align: center;
+  color: #999;
+}
+
+.detail-container .main-text .type {
+  padding: 5.33333vmin 0;
+  overflow: hidden;
+}
+
+.detail-container .main-text .type li {
+  margin-top: 1.33333vmin;
+  margin-bottom: 1.33333vmin;
+  width: 50%;
+  float: left;
+}
+
+.detail-container .main-text .type li span {
+  color: #999;
+}
+
+.detail-container .map {
+  padding: 0 2.66667vmin;
+  background-color: #fff;
+  margin-top: 1.6vmin;
+}
+
+.detail-container .map .map-container {
+  width: 100%;
+  height: 40vmin;
+  background-color: red;
+}
+
+.detail-container .map .title {
+  padding: 2.66667vmin;
+}
+
+.detail-container .map .matching {
+  padding: 5.33333vmin 0 2.66667vmin 2.66667vmin;
+}
+
+.detail-container .map .matching span {
+  margin-right: 1.6vmin;
+}
+
+.detail-container .overview {
+  padding: 0 2.66667vmin;
+  background-color: #fff;
+  margin-top: 1.6vmin;
+}
+
+.detail-container .overview .call {
+  display: flex;
+  padding: 5.33333vmin 0;
+}
+
+.detail-container .overview .call .user-avatar {
+  width: 13.33333vmin;
+  height: 13.33333vmin;
+  margin-right: 2.66667vmin;
+}
+
+.detail-container .overview .call .user-avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-container .overview .call .username {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-container .overview .call .username p:nth-child(1) {
+  margin-bottom: 1.6vmin;
+}
+
+.detail-container .overview .call .username p:nth-child(2) {
+  font-size: 3.2vmin;
+}
+
+.detail-container .overview .call .username p:nth-child(2) i {
+  font-size: 3.2vmin;
+}
+
+.detail-container .overview .call .message {
+  margin-left: 37.33333vmin;
+  width: 18.66667vmin;
+  height: 8vmin;
+  background-color: #fff;
+  border: 0.26667vmin solid #8adab9;
+  color: #8adab9;
+  border-radius: 1.06667vmin;
+  transform: translate(0, 2.66667vmin);
+}
+
+.detail-container .overview .description {
+  padding-bottom: 2.66667vmin;
+}
+
+.detail-container .like {
+  padding: 0 2.66667vmin;
+  background-color: #fff;
+  margin-top: 1.6vmin;
+}
+
+.detail-container .like .like-content .content {
+  margin-top: 5.33333vmin;
+  padding-bottom: 4vmin;
+  padding-top: 4vmin;
+  border-bottom: 1px solid #babcbb;
+  display: flex;
+}
+
+.detail-container .like .like-content .content .img {
+  margin-right: 4vmin;
+  width: 33.33333vmin;
+  height: 24vmin;
+}
+
+.detail-container .like .like-content .content .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-container .like .like-content .content .text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detail-container .like .like-content .content .text .text-down span {
+  color: #babcbb;
+}
+
+.detail-container .like .like-content .content .text .text-down .from {
+  float: left;
+}
+
+.detail-container .like .like-content .content .text .text-down .date {
+  float: right;
+}
+
+.detail-container .down {
+  z-index: 999999999999;
+  font-size: 4.26667vmin;
+  border-top: 0.26667vmin solid #999;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  height: 13.33333vmin;
+  line-height: 13.33333vmin;
+  position: fixed;
+  bottom: 0;
+}
+
+.detail-container .down ul {
+  display: flex;
+}
+
+.detail-container .down ul .am-whitespace {
+  display: none;
+}
+
+.detail-container .down ul li {
+  flex: 1;
+  color: #999;
+  text-align: center;
+  float: left;
+}
+
+.detail-container .down ul li .am-wingblank {
+  margin: 0;
+  height: 100%;
+  border: none;
+}
+
+.detail-container .down ul li .am-wingblank .am-button {
+  font-size: 4.26667vmin;
+  color: #999;
+  border: none;
+  width: 100%;
+  height: 100%;
+  line-height: 13.33333vmin;
+  border-radius: 0;
+}
+
+.detail-container .down ul li .am-wingblank .am-button i {
+  font-size: 4.26667vmin;
+}

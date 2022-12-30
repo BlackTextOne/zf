@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none !important;
+}
+a {
+    text-decoration: none !important;
+}
+html,body {
+    background-color: #fff !important;
+}

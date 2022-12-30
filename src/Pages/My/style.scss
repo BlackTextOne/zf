@@ -1,0 +1,97 @@
+.my-container {
+  margin-bottom: 50px;
+  .bg {
+    width: 100%;
+    height: (191vmin / 3.75);
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .user {
+    position: absolute;
+    top: (135vmin / 3.75);
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    z-index: 999999;
+    width: 85%;
+    height: (181vmin / 3.75);
+    box-shadow: 0 0 (10vmin / 3.75) (0vmin / 3.75) #999;
+    .avatar {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: (70vmin / 3.75);
+      height: (70vmin / 3.75);
+      border-radius: (35vmin / 3.75);
+      box-shadow: 0 0 (5vmin / 3.75) (0vmin / 3.75) #999;
+      padding: (8vmin / 3.75);
+      box-sizing: border-box;
+      background-color: #fff;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .name {
+      text-align: center;
+      font-size: (14vmin / 3.75);
+      margin-top: (60vmin / 3.75);
+    }
+    .login {
+      text-align: center;
+      margin-top: (25vmin / 3.75);
+      button {
+        padding: (8vmin / 3.75) (14vmin / 3.75);
+        border: 0;
+        background-color: #14a678;
+        color: #fff;
+        font-size: (14vmin / 3.75);
+        border-radius: (6vmin / 3.75);
+      }
+    }
+  }
+  .join {
+    width: 92%;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+  .line {
+    width: 100%;
+    height: (135vmin / 3.75);
+  }
+  .fn {
+    margin-top: (6vmin / 3.75);
+    width: 100%;
+    height: 20px;
+    padding: 0 (25vmin / 3.75);
+    box-sizing: border-box;
+    ul {
+      li {
+        width: (76vmin / 3.75);
+        box-sizing: border-box;
+        padding: (10vmin / 3.75);
+        font-size: (14vmin / 3.75);
+        text-align: center;
+        float: left;
+        margin-bottom: (20vmin / 3.75);
+        i {
+          text-align: center;
+          font-size: (18vmin / 3.75);
+          display: block;
+          margin-bottom: (8vmin / 3.75);
+        }
+        &:nth-child(2) {
+          margin: 0 (48vmin / 3.75);
+        }
+        &:nth-child(5) {
+          margin: 0 (48vmin / 3.75);
+        }
+      }
+    }
+  }
+}
